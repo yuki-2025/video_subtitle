@@ -1,5 +1,5 @@
 # video_subtitle_generation
-Generate subtitles from an audio/video file, using OpenAI's Whisper model.
+Generate subtitles from an audio/video file, using OpenAI's Whisper model. Support multiple language of translation.
 
 Demo: https://videosubtitle-gz.streamlit.app/
 
