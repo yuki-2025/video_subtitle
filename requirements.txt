@@ -4,4 +4,5 @@ numpy
 streamlit 
 transformers 
 pydub 
+ffmpeg-python
 psutil
