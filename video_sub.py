@@ -101,6 +101,8 @@ def main():
 
             with st.spinner("Processing..."):
                 logger.info("Starting transcription process...")
+                logger.info(get_gpu_info())
+                logger.info(get_cpu_info())
                 full_text, srt_content = transcribe_audio(model_name, tmp_file_path, language=language)
 
             if full_text and srt_content:
